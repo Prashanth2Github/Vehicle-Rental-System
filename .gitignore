@@ -1,0 +1,43 @@
+# Ignore IDE-specific files
+/.idea/
+/*.iml
+/.classpath
+/.project
+/.settings/
+*.swp
+
+# Ignore build directories
+/bin/
+/build/
+/out/
+/target/
+
+# Ignore dependency caches
+/.gradle/
+/.gradle/
+/node_modules/
+
+# Ignore logs and temporary files
+/logs/
+/*.log
+*.tmp
+*.lock
+*.cache
+*.DS_Store
+
+# Ignore database files
+/database.sql
+/config.properties
+
+# Ignore compiled Java files
+*.class
+*.jar
+*.war
+
+# Ignore coverage reports
+/coverage/
+/test-output/
+/jacoco/
+
+# Ignore personal configuration files
+.env
